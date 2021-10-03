@@ -82,50 +82,58 @@ h3 {
   color: #110297;
 }
 
+.links {
+  color: darkred;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.links:hover {
+  color: whitesmoke;
+}
+
+.form {
+  margin: auto;
+  font-size: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button {
+  background: #41f341;
+  border: 2px solid darkolivegreen;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 15px;
+  color: darkgreen
+}
+
+button:hover {
+  background: blue;
+  color: whitesmoke;
+  border: 2px solid #41f341;
+  border-radius: 5px;
+  font-style: bold;
+}
+
+h4 {
+  font-style: italic;
+}
+
 @keyframes bg {
 	50% {
 		color: #0069D9;
     color: purple;
 	}
-}
-
-a {
-  color: #03045e;
-  text-decoration: none;
-  font-weight: 700;
-  line-height: 2;
-}
-
-
-
-
-
-ul{
-  list-style-type: none;
-  padding-left: 0;
-}
-
-
-#hover:hover{
-  color: whitesmoke;
-}
-
-button{
-  background: #41f341;
-  border: solid 1px transparent;
-  padding: 2px 20px;
-  border-radius: 3px;
-}
-
-button:hover{
-  background: blue;
-  color: whitesmoke;
-  border: solid 1px transparent;
-  border-radius: 3px;
-  padding: 2px 20px;
-  font-style: bold;
-}
-
-h6{
-  font-style: italic;
 }
