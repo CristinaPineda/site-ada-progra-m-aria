@@ -1,21 +1,42 @@
 body{
-  text-align: center;
-  font-family: "Overlock", cursive;
   background-color: #588B8B;
   color: #FFFFFF;
-  margin: 0px 0px 30px 0px;
+  font-family: "Overlock", cursive;
+  text-align: center;
 }
 
 .header-h1{
+  border: 5px double #FFD5C2;
+  border-right-style: none;
+  border-left-style: none;
   color:#FFD5C2;
   font-size: 60px;
   font-weight: 300;
-  border-width: 5px;
-  border-style: double;
-  border-right-style: none;
-  border-left-style: none;
-  border-color: #FFD5C2;
-} 
+}
+
+.menu-principal ul li a{
+  color: 				#4B0082;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.menu-principal{
+  background-color: #E9967A;  
+  max-width: 60%;
+  margin: 0 auto;
+
+}
+
+.menu-principal li{
+  display: inline-block;
+  line-height: 2,5;
+  margin: 0 89px;
+}
+
+.menu-principal a:hover{
+  color: #7B68EE;
+}
 
 h2{
   color: #2a1fc4;
@@ -79,29 +100,6 @@ ul{
   padding-left: 0;
 }
 
-.menu-principal ul li a{
-  color: 				#4B0082;
-  text-decoration: underline;
-  font-style: italic;
-  font-size: 18px;
-}
-
-.menu-principal{
-  background-color: #E9967A;  
-  max-width: 60%;
-  margin: 0 auto;
-
-}
-
-.menu-principal li{
-  display: inline-block;
-  line-height: 2,5;
-  margin: 0 89px;
-}
-
-.menu-principal a:hover{
-  color: #7B68EE;
-}
 
 #hover:hover{
   color: whitesmoke;
