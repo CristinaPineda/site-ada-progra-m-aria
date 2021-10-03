@@ -1,26 +1,134 @@
-body{
-  text-align: center;
-  /**font-family: Open sans,sans-serif;*/
+body {
   background-color: #588B8B;
   color: #FFFFFF;
-  margin: 0px 0px 30px 0px;
+  font-family: "Overlock", cursive;
+  text-align: center;
 }
 
-h1{
+.header-h1 {
+  border: 5px double #FFD5C2;
+  border-right-style: none;
+  border-left-style: none;
   color:#FFD5C2;
   font-size: 60px;
   font-weight: 300;
-  border-width: 5px;
-  border-style: double;
-  border-right-style: none;
-  border-left-style: none;
-  border-color: #FFD5C2;
-} 
+}
 
-h2{
+.menu-principal {
+  background-color: #E9967A;
+  border-radius: 5px; 
+  width: 60%;
+  margin: auto;
+}
+
+.menu-principal ul li a {
+  color: #4B0082;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.menu-principal ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-principal a:hover {
+  color: #7B68EE;
+}
+
+h2 {
   color: #2a1fc4;
   font-size: 40px;
   animation: bg 2s infinite;
+}
+
+article {
+  width: 60%;
+  margin: 0 auto;
+}
+
+article p {
+  font-size: 20px;
+  line-height: 1,5;
+}
+
+img {
+  width: 80%;
+  box-shadow: 10px 10px 5px #ccc;
+  border-radius:30px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 28px;
+}
+
+.titulo-infancia {
+  color: chartreuse;
+}
+
+.titulo-juventude {
+  color: #fa9703;
+}
+
+.titulo-adulta {
+  color: #540b0e;
+}
+
+.outras {
+  color: #110297;
+}
+
+.links {
+  color: darkred;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.links:hover {
+  color: whitesmoke;
+}
+
+.form {
+  margin: auto;
+  font-size: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button {
+  background: #41f341;
+  border: 2px solid darkolivegreen;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 15px;
+  color: darkgreen
+}
+
+button:hover {
+  background: blue;
+  color: whitesmoke;
+  border: 2px solid #41f341;
+  border-radius: 5px;
+  font-style: bold;
+}
+
+h4 {
+  font-style: italic;
 }
 
 @keyframes bg {
@@ -28,105 +136,4 @@ h2{
 		color: #0069D9;
     color: purple;
 	}
-}
-
-h3{
-  font-style: italic;
-  font-size: 22px;
-}
-
-.titulo-infancia{
-  color: #fff3b0;
-}
-
-.titulo-juventude{
-  color: #fa9703;
-}
-
-.titulo-adulta{
-  color: #540b0e;
-}
-
-section{
-  width: 60%;
-  margin: 0 auto;
-}
-
-section section{
-  width: 100%;
-}
-
-.outras{
-  color: #110297;
-}
-
-a{
-  color: #03045e;
-  text-decoration: none;
-  font-weight: 700;
-  line-height: 2;
-}
-
-p{
-  font-size: 20px;
-  line-height: 1,5;
-}
-
-img{
-  width: 100%;
-  box-shadow: 10px 10px 5px #ccc;
-  border-radius:35px;
-}
-
-ul{
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.menu-principal ul li a{
-  color: 				#4B0082;
-  text-decoration: underline;
-  font-style: italic;
-  font-size: 18px;
-}
-
-.menu-principal{
-  background-color: #E9967A;  
-  max-width: 60%;
-  margin: 0 auto;
-
-}
-
-.menu-principal li{
-  display: inline-block;
-  line-height: 2,5;
-  margin: 0 89px;
-}
-
-.menu-principal a:hover{
-  color: #7B68EE;
-}
-
-#hover:hover{
-  color: whitesmoke;
-}
-
-button{
-  background: #41f341;
-  border: solid 1px transparent;
-  padding: 2px 20px;
-  border-radius: 3px;
-}
-
-button:hover{
-  background: blue;
-  color: whitesmoke;
-  border: solid 1px transparent;
-  border-radius: 3px;
-  padding: 2px 20px;
-  font-style: bold;
-}
-
-h6{
-  font-style: italic;
 }
