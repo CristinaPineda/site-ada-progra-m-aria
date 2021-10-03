@@ -6,7 +6,7 @@ body{
   margin: 0px 0px 30px 0px;
 }
 
-h1{
+.header-h1{
   color:#FFD5C2;
   font-size: 60px;
   font-weight: 300;
@@ -47,13 +47,9 @@ h3{
   color: #540b0e;
 }
 
-section{
+article{
   width: 60%;
   margin: 0 auto;
-}
-
-section section{
-  width: 100%;
 }
 
 .outras{
